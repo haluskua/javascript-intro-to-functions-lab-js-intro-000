@@ -20,17 +20,17 @@ function logShout(string){
  
  
 
-function sayHiToGrandma (aWord) {
+function sayHiToGrandma (string) {
   var deaf = "I can't hear you!";
   var respond = "YES INDEED!";
-  var lovUnswer = "I love you, too.";
-  if (aWord.toLowerCase(string) === string) {
+  var love = "I love you, too.";
+  if (string.toLowerCase(string) === string) {
     return deaf;
   }
-  else if (string.toUpperCase(string) === aWord) {
+  else if (string.toUpperCase(string) === string) {
     return respond;
   }
-  else if ("I love you, Grandma." === aWord) {
-    return lovUnswer
+  else if ("I love you, Grandma." === string) {
+    return love
   }
 }
