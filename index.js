@@ -21,14 +21,14 @@ function logShout(string){
  
 
 function sayHiToGrandma (aWord) {
-  var cantUnswer = "I can't hear you!";
-  var yesUnswer = "YES INDEED!";
+  var deaf = "I can't hear you!";
+  var respond = "YES INDEED!";
   var lovUnswer = "I love you, too.";
   if (aWord.toLowerCase(aWord) === aWord) {
-    return cantUnswer;
+    return deaf;
   }
   else if (aWord.toUpperCase(aWord) === aWord) {
-    return yesUnswer;
+    return respond;
   }
   else if ("I love you, Grandma." === aWord) {
     return lovUnswer
